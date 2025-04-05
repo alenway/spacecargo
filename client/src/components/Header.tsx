@@ -1,7 +1,7 @@
 import { useState } from "react";
-import SearchBar from "@/components/block/SearchBar";
-import Logo from "@/components/block/Logo";
-import NavIcons from "@/components/block/Navicons";
+import SearchBar from "@/components/SearchBar";
+import Logo from "@/components/Logo";
+import NavIcons from "@/components/Navicons";
 
 type Props = {};
 
@@ -15,7 +15,7 @@ const Header = (props: Props) => {
     }
   };
   return (
-    <header className="bg-[#0A0F1E] shadow-md fixed w-full top-0 z-50">
+    <header className="bg-[#0A0F1E] shadow-md w-full top-0 z-50">
       <nav className="container mx-auto py-2.5">
         <div className="flex items-center justify-between">
           {/* Logo */}

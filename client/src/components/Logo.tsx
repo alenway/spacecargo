@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/image2vector.svg";
+import logo from "@/assets/image2vector.svg";
 type Props = {};
 
 const Logo = (props: Props) => {

@@ -12,7 +12,7 @@ import {
   Settings,
   X,
 } from "lucide-react";
-import profilePic from "../../assets/cesar.jpg";
+import profilePic from "@/assets/cesar.jpg";
 
 const NotificationDropdown = ({ notifications }: { notifications: any[] }) => (
   <div className="absolute top-12 right-0 w-80 bg-white shadow-lg rounded-lg p-4 text-left">
@@ -50,7 +50,7 @@ const ProfileDropdown = ({ userDetails, menuOptions }: any) => (
       {menuOptions.map((option: any, index: number) => (
         <div
           key={index}
-          className="flex items-center gap-2 cursor-pointer hover:text-gray-500 p-2 rounded"
+          className="flex items-center gap-2 cursor-pointer text-black hover:text-blue-400 p-2 rounded"
         >
           {option.icon}
           <p>{option.label}</p>

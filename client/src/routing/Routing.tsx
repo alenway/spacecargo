@@ -6,8 +6,8 @@ import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 
 // Components
-import Header from "@/components/block/Header";
-import Footer from "@/components/block/Footer";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 // Layout component that includes navigation and renders children
 function Layout() {
